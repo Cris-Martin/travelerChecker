@@ -6,18 +6,32 @@
 }
 a{
     text-decoration: none;
+    color:rgb(255, 0, 0);
 }
 /*index seccion herobanner*/
-
+header{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color:#ffc4c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 900;
+}
 .topHeader{
-    background-color: aliceblue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 90%;
+    
 }
 
 .imgLogo{
     width: 128px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode:color-burn;
 }
 #navbar{
     display: flex;
@@ -25,6 +39,7 @@ a{
     align-items: center;
     justify-content: center;
     gap:5%;
+
 }
 
 .secImg{
@@ -32,6 +47,22 @@ a{
     flex-direction: row;
     justify-content: center;
     gap:5%;
+}
+
+.heroBanner{
+    background-image: url("./img/travelHero1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+.h2HeroBanner{
+    font-size: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*index seccion 2*/
