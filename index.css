@@ -91,6 +91,12 @@ header{
     font-size: 30px;
     font-family: Impact;
 }
+/*sec background imagen azul*/
+.secBackImg{
+    background-image: url("https://es.tourismpanama.com/includes/client_public/assets/redesign_assets/blue-bg-burst-parallax.jpg");
+    width:100%;
+    height:90vh;
+}
 
 /*img promociones*/
 .imgPromo{
