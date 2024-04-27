@@ -19,7 +19,9 @@ p{
 main{
     padding-bottom: 150px;
 }
-
+.container{
+    margin:0 10%;
+}
 
 /*NAV*/
 header{
@@ -177,6 +179,10 @@ margin-top: 50px;
 }
 
 /*Promo cards Viajes*/
+.sectionCardsTrip{
+    text-align: start;
+    margin-top:50px;
+}
 .cardsTrip{
     display: flex;
     flex-direction: column;
@@ -184,13 +190,18 @@ margin-top: 50px;
     width: 300px;
     border-radius: 12px;
     box-shadow: 0.5px 0.5px 0.5px rgb(206, 206, 206);
-    transition: 1s ;
+    transition:  box-shadow 1s ;
 }
 .cardsTrip:hover{
     box-shadow: 3px 3px 4px rgb(206, 206, 206);
 }
 
-
+.subSectionCardTrip{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+}
 .imgCardTrip{
     width:100%;
     background-size: cover;
@@ -203,6 +214,9 @@ margin-top: 50px;
     flex-direction: column;
     justify-content: space-between;
 }
-
+.TextCardTrip div:first-child{
+    border-bottom:1px solid  rgb(206, 206, 206);
+    padding-bottom:15px;
+}
 
 
