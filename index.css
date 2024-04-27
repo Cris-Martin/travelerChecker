@@ -6,6 +6,8 @@
 }
 body{
     background-color: #f2f4f5;
+    position:relative;
+    min-height: 100vh;
 }
 a{
     text-decoration: none;
@@ -14,7 +16,12 @@ a{
 p{
     color: #545962
 }
-/*index seccion herobanner*/
+main{
+    padding-bottom: 150px;
+}
+
+
+/*NAV*/
 header{
     position: fixed;
     top: 0%;
@@ -44,7 +51,20 @@ header{
     gap:5%;
 
 }
+/*Footer*/
+footer{
+    text-align: center;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto; 
+}
 
+
+/*1*/
+/*MAIN*/
+/*index seccion herobanner*/
 .secImg{
     display: flex;
     flex-direction: row;
@@ -104,6 +124,12 @@ border-radius: 30px;
 margin-top: 50px;
 }
 
+
+
+/*2*/
+/*PAG. SEARCH*/
+/*2*/
+
 /*serch form*/
 .heroBanner2{
     width: 100%;
@@ -150,10 +176,33 @@ margin-top: 50px;
     padding-bottom: 10px;
 }
 
-/*Footer*/
-footer{
-    text-align: center;
-  background-color: blue;
-  margin-top: 100px;
-  bottom: 0;
+/*Promo cards Viajes*/
+.cardsTrip{
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0.5px 0.5px 0.5px rgb(206, 206, 206);
+    transition: 1s ;
 }
+.cardsTrip:hover{
+    box-shadow: 3px 3px 4px rgb(206, 206, 206);
+}
+
+
+.imgCardTrip{
+    width:100%;
+    background-size: cover;
+    border-radius: 12px 12px 0 0;
+}
+.TextCardTrip{
+    height: 100%;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
