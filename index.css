@@ -118,6 +118,7 @@ footer{
     background-image: url("https://es.tourismpanama.com/includes/client_public/assets/redesign_assets/blue-bg-burst-parallax.jpg");
     width:100%;
     height:90vh;
+/*arreglar bottom con las cards q se rompen sobre todo*/
 }
 
 /*img promociones*/
@@ -157,6 +158,7 @@ margin-top: 50px;
     justify-content: center;
     align-items: center;
     margin-top: 60px;
+    box-sizing: content-box;
 }
 .subSectionCards{
     padding-top: 20px;
@@ -171,6 +173,7 @@ margin-top: 50px;
     border: solid 1px #d6d6d6;
     border-radius: 10px;
     max-width: 15%;
+    max-height: auto;
     padding: 15px;
 
 }
