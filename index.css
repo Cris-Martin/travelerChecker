@@ -195,7 +195,12 @@ margin-top: 50px;
 .cards h3{
     padding-bottom: 10px;
 }
-
+.cards p {
+    line-height: 1.43;
+    letter-spacing: -0.1px;
+    color: #888;
+    font-size: 14px;
+}
 /*Promo cards Viajes*/
 .sectionCardsTrip{
     text-align: start;
