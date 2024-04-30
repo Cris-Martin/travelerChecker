@@ -23,7 +23,7 @@ main{
     padding-bottom: 150px;
 }
 .container{
-    margin:0 10%;
+    margin:0 5%;
 }
 
 /*NAV*/
@@ -91,6 +91,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Permanent Marker", cursive;
 }
 
 /*index seccion 2*/
@@ -100,14 +101,18 @@ footer{
     margin-top: 100px;
 }
 .sub2div1{
-  grid-column: 2/7;
+  grid-column: 1/6;
   grid-row: 1;
+  color:blue;
 }
 .sub2div2{
-    grid-column: 8/10;
+    grid-column: 7/13;
     grid-row: 1;
 }
-
+.sub2div2 img{
+    width:100%;
+    background-size:contain;
+}
 .sub2div1 h2{
     font-size: 64px;
 }
@@ -125,6 +130,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 .secBackImg h3:first-child{
     font-family: "Permanent Marker", cursive;
@@ -258,3 +264,8 @@ margin-top: 50px;
 }
 
 /*CONTACTO*/
+
+.fomContact{
+    margin:150px;
+    background-color: blue;
+}
