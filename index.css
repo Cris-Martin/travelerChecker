@@ -82,7 +82,7 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     width: auto;
 }
 .h2HeroBanner{
@@ -92,6 +92,10 @@ footer{
     justify-content: center;
     align-items: center;
     font-family: "Permanent Marker", cursive;
+}
+.arrow-down{
+    width: 128px;
+    /*arreglar */
 }
 
 /*index seccion 2*/
