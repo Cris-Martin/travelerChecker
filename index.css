@@ -36,6 +36,7 @@ header{
     flex-direction: column;
     align-items: center;
     font-weight: 900;
+    z-index: 1;
 }
 .topHeader{
     display: flex;
@@ -82,7 +83,7 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 93vh;
     width: auto;
 }
 .h2HeroBanner{
@@ -94,8 +95,15 @@ footer{
     font-family: "Permanent Marker", cursive;
 }
 .arrow-down{
-    width: 128px;
-    /*arreglar */
+    width: 100%;
+    height: 70px;
+    filter: invert(32%) sepia(25%) saturate(4928%) hue-rotate(353deg) brightness(105%) contrast(107%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-downImg{
+    width: 50px;
 }
 
 /*index seccion 2*/
