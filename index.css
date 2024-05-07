@@ -20,13 +20,14 @@ p{
     color: #545962
 }
 main{
+    margin-top: 8vh;
     padding-bottom: 150px;
 }
 .container{
     margin:0 5%;
 }
 
-/*NAV*/
+/*NAV---------------------------------------------------*/
 header{
     position: fixed;
     top: 0%;
@@ -55,9 +56,15 @@ header{
     align-items: center;
     justify-content: center;
     gap:5%;
+    min-height: 8vh;
 
 }
-/*Footer AREGLARLO*/
+.topHeader a, #navbar a{
+    color:rgb(248, 64, 8);
+    font-weight: 800;
+}
+
+/*Footer AREGLARLO--------------------------------------------------*/
 footer{
 text-align: center;
   background-color: blue;
@@ -104,7 +111,7 @@ padding-bottom: 30px;
 
 }
 /*1*/
-/*MAIN*/
+/*MAIN--------------------------------------------------------------------------*/
 /*index seccion herobanner*/
 .secImg{
     display: flex;
@@ -141,7 +148,7 @@ padding-bottom: 30px;
     width: 50px;
 }
 
-/*index seccion 2*/
+/*index seccion 2------------------------------------------------------------------*/
 .section2{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -168,7 +175,7 @@ padding-bottom: 30px;
     font-size: 35px;
     font-family: "Permanent Marker", cursive;
 }
-/*sec background imagen azul*/
+/*sec background imagen azul--------------------------------------------------------*/
 .secBackImg{
     background-image: url("https://es.tourismpanama.com/includes/client_public/assets/redesign_assets/blue-bg-burst-parallax.jpg");
     width:100%;
@@ -203,7 +210,7 @@ padding-bottom: 30px;
     filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(183deg) brightness(106%) contrast(101%);
 }
 
-/*img promociones*/
+/*img promociones-----------------------------------------------*/
 .imgPromo{
 border-radius: 30px;
 margin-top: 50px;
@@ -212,13 +219,13 @@ margin-top: 50px;
 
 
 /*2*/
-/*PAG. SEARCH*/
+/*PAG. SEARCH--------------------------------------------------------------------------------------------------------------------------------*/
 /*2*/
 
 /*serch form*/
 .heroBanner2{
     width: 100%;
-    height: 300px;
+    height: 500px;
     background-image: url(https://images.almundo.com/205/image/fetch/fl_progressive,w_1440,h_344,q_auto,c_fill,g_auto,f_jpg/https://almundo-com-res.cloudinary.com/image/upload/v1701109625/banner-home_dae90r.png);
     display: flex;
     flex-direction: row;
@@ -232,6 +239,7 @@ margin-top: 50px;
     flex-direction: row;
     justify-content: space-around;
     width: 80%;
+    height: 350px;
 }
 /*section cards*/
 .sectionCards{
